@@ -148,3 +148,5 @@ export const getRelatedMovies = async (id) => {
     return catchError(error);
   }
 };
+
+export default searchPublicMovies;
